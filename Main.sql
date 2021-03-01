@@ -6,6 +6,11 @@
 
 /*Task One: List the name of each supplier together with the average price of the products that they supply (round the average to 2 decimal places). */
 
+/*SELECT supplier.name, ROUND(AVG(product.price),2) FROM supplier, product
+WHERE product.supplierID = supplier.supplerID;*/
+
+SELECT * FROM supplier
+
 /*Task Two: List the name of each shop together with the largest and the average number of products ordered by the shop (round the average to 1 decimal place). */
 
 /*Task Three: List the name of each shop and the number of orders that the shop has placed. The shop with the largest number of orders should be listed first; shops with the same number of orders should be listed alphabetically.  */
